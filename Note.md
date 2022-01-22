@@ -16,7 +16,7 @@ DI에는 필드 주입, setter 주입, 생성자 주입 이렇게 3가지 방법
 ### HomeController 관련
 
 기존에 만든 index.html 이 있지만, spring이 
-![img.png](img.png)
+![image](https://user-images.githubusercontent.com/34308156/150632182-62fa1f39-fedc-4b39-a756-f2b0993df4ef.png)
 위 순서로 응답을 찾아보기 때문에 새로 만들어진 HomeController가 존재하여 기존 index.html이 아닌
 home.html을 렌더링하여 응답
 
