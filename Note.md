@@ -1,3 +1,19 @@
+### 01/25
+
+[JdbcMemberRepository]  
+Jdbc 관련하여 스프링컨테이너에서 작업을 할 때 DataSourceUtils
+을 통하여 작업을 하여야 한다.
+
+[MemberServiceIntegrationTest]  
+@Transactional 어노테이션을 통해 테스트를 진행할 시,
+트랜잭션을 commit 하지 않아 테스트 간의 영향을 받지 않는다.
+
+참고: @commit 등의 어노테이션도 존재하며 이 어노테이션을 사용할 시 해당 테스트 케이스의 트랜잭션은 commit 되도록 한다. 
+
+
+
+
+
 ### 01/22
 
 
