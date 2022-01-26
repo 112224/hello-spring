@@ -1,3 +1,13 @@
+### 01/26
+[SpringDataJpaMemberRepository]
+인터페이스를 통한 기본적인 CRUD를 제공하고, @Override 어노테이션 명명 규칙으로 JPQL을 생성해줌
+ex) findByParam1(Type Param1)  => JPQL : "select m from Member m where m.Param1 = ?"
+    findByParam1AndParam2(Type Param1, Type Param2)  => JPQL : "select m from Member m where m.Param1 = ? and m.Param2 = ?"
+
+별도의 구현체를 생성하지 않아도 스프링 컨테이너에서 구현체를 생성하여 Bean에 등록하여 준다.
+
+
+
 ### 01/25
 
 [JdbcMemberRepository]  
